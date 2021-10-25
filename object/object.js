@@ -59,17 +59,17 @@ console.log(Object.keys(newNative));
 
 //INTRODUCTION TO THIS KEYWORD
 
-// let cohort8Native = {
-//     fullName: "Precious",
-//     gender: "Female",
-//     height: "average",
-//     hobby : "Fashion",
-//     getFullName: function(){
-//         return this.fullName
-//     }
-// }
-//
-// console.log(cohort8Native.getFullName())
+let cohort8Native = {
+    fullName: "Precious",
+    gender: "Female",
+    height: "average",
+    hobby : "Fashion",
+    getFullName: function(){
+        return this.fullName
+    }
+}
+
+console.log(cohort8Native.getFullName())
 
 //INTRODUCTION TO BIND KEYWORD
 
