@@ -10,16 +10,16 @@ let native = {
 console.log(native)
 
 //second method
-// let othernative = new Object()
-// console.log(native)
-//
-// function createObject(name, age, gender, id, height, hobby) {
-//         this.name = name
-//         this.age = age
-//         this.gender = gender
-//         this.id = id
-//         this.height = height
-//         this.hobby = hobby
+let othernative = new Object()
+console.log(native)
+
+function createObject(name, age, gender, id, height, hobby) {
+        this.name = name
+        this.age = age
+        this.gender = gender
+        this.id = id
+        this.height = height
+        this.hobby = hobby
 }
 
 // let newNative = new createObject("precious", 34, "female"," 5.7ft", "sleeping", "Sewing")
