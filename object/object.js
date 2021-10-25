@@ -22,9 +22,9 @@ function createObject(name, age, gender, id, height, hobby) {
         this.hobby = hobby
 }
 
-// let newNative = new createObject("precious", 34, "female"," 5.7ft", "sleeping", "Sewing")
-//
-// console.log(newNative)
+let newNative = new createObject("precious", 34, "female"," 5.7ft", "sleeping", "Sewing")
+
+console.log(newNative)
 
 //RETRIEVAL
 
