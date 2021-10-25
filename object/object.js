@@ -32,10 +32,10 @@ console.log(newNative)
 //1) Dot Notation
 // 2) bracket Notation
 
-// let age = newNative.age
-// let ageb = newNative["age"]
-//
-// console.log(age, ageb)
+let age = newNative.age
+let ageb = newNative["age"]
+
+console.log(age, ageb)
 
 //UPDATE DATA IN OBJECTS
 
