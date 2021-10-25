@@ -47,15 +47,15 @@ console.log(newAge)
 
 // //DELETE DATA IN OBJECTS
 //
-// delete newNative.age;
-//
-// console.log(newNative)
-//
-// for (let n in newNative){
-//     console.log(newNative)
-// }
-//
-// console.log(Object.keys(newNative));
+delete newNative.age;
+
+console.log(newNative)
+
+for (let n in newNative){
+    console.log(newNative)
+}
+
+console.log(Object.keys(newNative));
 
 //INTRODUCTION TO THIS KEYWORD
 
