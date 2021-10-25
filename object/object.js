@@ -73,5 +73,5 @@ console.log(cohort8Native.getFullName())
 
 //INTRODUCTION TO BIND KEYWORD
 
-// let returnFullName = cohort8Native.getFullName.bind(cohort8Native)
-// console.log(returnFullName())
+let returnFullName = cohort8Native.getFullName.bind(cohort8Native)
+console.log(returnFullName())
