@@ -39,12 +39,12 @@ console.log(age, ageb)
 
 //UPDATE DATA IN OBJECTS
 
-// newNative.age = 27;
-//
-// let newAge = newNative["age"]
-//
-// console.log(newAge)
-//
+newNative.age = 27;
+
+let newAge = newNative["age"]
+
+console.log(newAge)
+
 // //DELETE DATA IN OBJECTS
 //
 // delete newNative.age;
