@@ -81,4 +81,3 @@ console.log(returnFullName)
 let firstname = "ozioma"
 let nameArray = firstname.split("")
 console.log(nameArray)
-
