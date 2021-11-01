@@ -110,3 +110,15 @@ let arrayObject = [
 console.log("Sorted in ascending order \n", sortByIdInAscendingOrder(arrayObject))
 console.log("Sorted in descending order \n", sortByIdInDescendingOrder(arrayObject))
 
+//Question Five
+function addToDictionary(array){
+    let sortedArray = sortArrayInAscendingOrder(array)
+    for (let i = 0; i < array.length; i++) {
+        sortedArray[i].Fullname = sortedArray[i].fullname +" "+ sortedArray[i].lastname
+        sortedArray[i].Email = sortedArray[i].firstname + " "+ "@semicolon.africa"
+        sortedArray[i].Nickname = sortedArray[i].firstname.charAt(0) + sortedArray[i].lastname.charAt(0)
+    }
+    return sortByIdInAscendingOrder(sortedArray);
+}
+
+console.log(addToDictionary(arrayObject))
