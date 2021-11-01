@@ -18,23 +18,15 @@ let mergeArray = merge(a,b)
 
 //Question Two ----Sort the array gotten in 1 above in ascending and descending order--
 function sortArrayInDescendingOrder(c){
-    for (let i = 0; i < c.length; i++) {
-        for (let j =i+1; j < c.length; j++) {
-            if(c[i] < c[j]){
-                let temp = c[i];
-                c[i] = c[j];
-                c[j] = temp;
-            }
-        }
-    }
-    return c;
+    c.sort();
+    let reverse = c.reverse();
+    return reverse;
 }
 
 console.log("Array in descending order ", sortArrayInDescendingOrder(mergeArray))
 
 function sortArrayInAscendingOrder(c){
-        return mergeArray.sort();
-    return c;
+        return c.sort();
 }
 
 console.log("Array in ascending order ", sortArrayInAscendingOrder(mergeArray));
@@ -63,3 +55,58 @@ function mergerAndGroup(a, b) {
 let d = ["a", 1 , true]
 let e = ["b" , 2 , false]
 console.log(mergerAndGroup(d,e))
+
+//----Question Four
+function sortByIdInAscendingOrder(array){
+    for (let i = 0; i < array.length; i++) {
+        for (let j = 0; j < array.length; j++) {
+            if (array[i].id < array[j].id) {
+                let temp = array[i]
+                array[i] = array[j]
+                array[j] = temp
+            }
+        }
+    }
+    return array;
+
+}
+
+// function sortByIdInDescendingOrder(array){
+//     for (let i = 0; i < array.length; i++) {
+//         for (let j = 0; j < array.length; j++) {
+//             if (array[j].id < array[i].id) {
+//                 let temp = array[i]
+//                 array[i] = array[j]
+//                 array[j] = temp
+//             }
+//         }
+//     }
+//     return array;
+//
+// }
+let arrayObject = [
+    {
+        id:3,
+        firstname:"saheed",
+        lastname: "adesuwa"
+    },
+    {
+        id:2,
+        firstname:"yetunde",
+        lastname: "hamad"
+    },
+    {
+        id:1,
+        firstname:"goodnews",
+        lastname: "confidence"
+    },
+    {
+        id:4,
+        firstname:"gideon",
+        lastname: "mojoyin"
+    },
+
+]
+console.log("Sorted in ascending order \n", sortByIdInAscendingOrder(arrayObject))
+// console.log("Sorted in descending order \n", sortByIdInDescendingOrder(arrayObject))
+
