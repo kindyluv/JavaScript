@@ -71,19 +71,19 @@ function sortByIdInAscendingOrder(array){
 
 }
 
-// function sortByIdInDescendingOrder(array){
-//     for (let i = 0; i < array.length; i++) {
-//         for (let j = 0; j < array.length; j++) {
-//             if (array[j].id < array[i].id) {
-//                 let temp = array[i]
-//                 array[i] = array[j]
-//                 array[j] = temp
-//             }
-//         }
-//     }
-//     return array;
-//
-// }
+function sortByIdInDescendingOrder(array){
+    for (let i = 0; i < array.length; i++) {
+        for (let j = 0; j < array.length; j++) {
+            if (array[j].id < array[i].id) {
+                let temp = array[i]
+                array[i] = array[j]
+                array[j] = temp
+            }
+        }
+    }
+    return array;
+
+}
 let arrayObject = [
     {
         id:3,
@@ -108,5 +108,5 @@ let arrayObject = [
 
 ]
 console.log("Sorted in ascending order \n", sortByIdInAscendingOrder(arrayObject))
-// console.log("Sorted in descending order \n", sortByIdInDescendingOrder(arrayObject))
+console.log("Sorted in descending order \n", sortByIdInDescendingOrder(arrayObject))
 
