@@ -26,10 +26,10 @@
 //     let result = x * x
 //     console.log(`${x} * ${x} = ${result}`)
 // }
-//
-// for (let i = 0; i <= 12; i++) {
-//     a(i, square);
-// }
+
+for (let i = 0; i <= 12; i++) {
+    a(i, square);
+}
 
 //Array method Classwork
 
