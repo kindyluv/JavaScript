@@ -17,10 +17,10 @@
 //     let result = x+y
 //     console.log(`${x} + ${y} = ${result}`)
 // }
-//
-// for (let i = 0; i <= 12; i++) {
-//     a(i, addition);
-// }
+
+for (let i = 0; i <= 12; i++) {
+    a(i, addition);
+}
 
 function square(x){
     let result = x * x
