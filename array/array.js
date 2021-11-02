@@ -6,10 +6,10 @@ let ama;
 
 numbers.unshift(123);
 numbers.push(50);
-// numbers2.pop();
-// numbers2.shift();
-// numbers2.reverse();
-// numbers.reverse();
+numbers2.pop();
+numbers2.shift();
+numbers2.reverse();
+numbers.reverse();
 
 for (let i = 0; i < numbers.length; i++) {
  for (let j = i + 1; j < numbers.length; j++) {
@@ -19,7 +19,7 @@ for (let i = 0; i < numbers.length; i++) {
    numbers[j] = ama;
   }
  }
- // console.table(numbers)
+ console.table(numbers)
 
 }
 // sort in ascending order
