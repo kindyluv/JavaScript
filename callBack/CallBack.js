@@ -3,11 +3,11 @@
 //         multiplier(num,i);
 //     }
 // }
-//
-// function multiply(x,y){
-//     let result = x*y
-//     console.log(`${x} * ${y} = ${result}`)
-// }
+
+function multiply(x,y){
+    let result = x*y
+    console.log(`${x} * ${y} = ${result}`)
+}
 
 for (let i = 0; i < 12; i++) {
     a(i, multiply);
