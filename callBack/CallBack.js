@@ -100,23 +100,20 @@ let objArray = [{
 // //-----Question Four------
 // //"Do question three above for object with gender fe
 //
-// let femaleArray
-// femaleArray = objArray.filter(function(myObj){
-//     return myObj.gender === "female"
-//
-// })
-// console.log("females ==>\n",femaleArray)
+let femaleArray
+femaleArray = objArray.filter(function(myObj){
+    return myObj.gender === "female"
+
+})
+console.log("females ==>\n",femaleArray)
 
 //----Question Five-----
 // "Create a new key age per object, the value of age per object is"
 // "equivalent to the total sum of both the firstName and lastName"
-
-
-let age
-   sum = objArray.map(function(myObj){
-     myObj.age = myObj.firstname.length + myObj.lastname.length
-       return myObj
-   })
+sum = objArray.map(function(myObj){
+    myObj.age = myObj.firstname.length + myObj.lastname.length
+    return myObj
+})
 
 
 console.log("==> \n",sum)
