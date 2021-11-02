@@ -36,7 +36,7 @@ console.log(val);
     '</ul>'+
      '</div>'
 
-// document.body.innerHTML = html;
+document.body.innerHTML = html;
 
  // with template String
 html = `
