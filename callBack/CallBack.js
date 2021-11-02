@@ -12,11 +12,11 @@
 // for (let i = 0; i < 12; i++) {
 //     a(i, multiply);
 // }
-//
-// function addition(x,y){
-//     let result = x+y
-//     console.log(`${x} + ${y} = ${result}`)
-// }
+
+function addition(x,y){
+    let result = x+y
+    console.log(`${x} + ${y} = ${result}`)
+}
 
 for (let i = 0; i <= 12; i++) {
     a(i, addition);
