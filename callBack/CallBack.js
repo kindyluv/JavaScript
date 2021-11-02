@@ -63,18 +63,18 @@ let objArray = [{
 //     }
 // )
 // //--part two
-//
-// let array
-// array = function arrayss(){
-//     let arrays = []
-//     objArray.forEach(function(item){
-//         arrays.push(item.firstname);
-//     })
-//     return arrays
-// }
-// console.log(array())
-//
-//
+
+let array
+array = function arrayss(){
+    let arrays = []
+    objArray.forEach(function(item){
+        arrays.push(item.firstname);
+    })
+    return arrays
+}
+console.log(array())
+
+
 // //-------Question Two ---------
 // //let question2 = "Using Array method map, print out a new key fullName"
 // // "per object and the value would be the combination of"
