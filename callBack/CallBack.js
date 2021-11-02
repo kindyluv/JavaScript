@@ -79,13 +79,13 @@ let objArray = [{
 // //let question2 = "Using Array method map, print out a new key fullName"
 // // "per object and the value would be the combination of"
 // // "the firstname and the lastname" "Check Array.prototype.map on MDN Docs"
-//
-// let array_one = objArray.map(function(myObj){
-//     myObj.fullName = myObj.firstname + " " + myObj.lastname
-//     return myObj.fullName
-// })
-//
-// console.log(array_one)
+
+let array_one = objArray.map(function(myObj){
+    myObj.fullName = myObj.firstname + " " + myObj.lastname
+    return myObj.fullName
+})
+
+console.log(array_one)
 //
 //
 //
