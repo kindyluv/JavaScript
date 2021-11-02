@@ -1,8 +1,8 @@
-// function a(num, multiplier){
-//     for (let i = 0; i < 12; i++) {
-//         multiplier(num,i);
-//     }
-// }
+function a(num, multiplier){
+    for (let i = 0; i < 12; i++) {
+        multiplier(num,i);
+    }
+}
 
 function multiply(x,y){
     let result = x*y
