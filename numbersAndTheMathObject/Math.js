@@ -1,18 +1,18 @@
-// let val;
-// val = Math.random();
-// val = Math.floor(Math.random()*10)
-//
-// const firstName = 'Lois';
-// const lastName = 'John';
-// const age = (Math.random()*100);
-// Math.ceil(age);
-//
-// val = firstName + ' ' + lastName + '\n i am ' + age + ' years old';
-// val = firstName.indexOf('i');
-// val = firstName.charAt(firstName.length-1);
-// val = firstName.substring(0, 4);
-// val = lastName.slice(0, 2)
-// console.log(val);
+let val;
+val = Math.random();
+val = Math.floor(Math.random()*10)
+
+const firstName = 'Lois';
+const lastName = 'John';
+const age = (Math.random()*100);
+Math.ceil(age);
+
+val = firstName + ' ' + lastName + '\n i am ' + age + ' years old';
+val = firstName.indexOf('i');
+val = firstName.charAt(firstName.length-1);
+val = firstName.substring(0, 4);
+val = lastName.slice(0, 2)
+console.log(val);
 
 //Template String
 
