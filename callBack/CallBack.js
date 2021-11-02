@@ -91,12 +91,12 @@ let objArray = [{
 //
 // //-----Question Three------
 // //"using Array method filter, return an array containing" "object with gender male
-// let maleArray
-// maleArray = objArray.filter(function(myObj){
-//     return myObj.gender === "male"
-// })
-// console.log("males ==> \n",maleArray)
-//
+let maleArray
+maleArray = objArray.filter(function(myObj){
+    return myObj.gender === "male"
+})
+console.log("males ==> \n",maleArray)
+
 // //-----Question Four------
 // //"Do question three above for object with gender fe
 //
