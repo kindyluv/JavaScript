@@ -57,11 +57,11 @@ let objArray = [{
 ]
 // //-------Question One ---------
 // //let question1 = "Using Array method forEach, print out the firstname"
-//
-// objArray.forEach(function(myObj){
-//     console.log(myObj.firstname)
-//     }
-// )
+
+objArray.forEach(function(myObj){
+    console.log(myObj.firstname)
+    }
+)
 // //--part two
 
 let array
