@@ -3,17 +3,18 @@ let val;
 const today = new Date();
 let dob = new Date();
 
-val = today.getDate();
-val = today.getDay();
-val = today.getFullYear();
-val = today.getMonth();
-val = today.getHours();
-val = today.getMinutes();
-val = today.getMilliseconds();
-val = today.getSeconds();
-val = today.getTime();
-val = today.getTimezoneOffset();
+today.getDate();
+today.getDay();
+today.getFullYear();
+today.getMonth();
+today.getHours();
+today.getMinutes();
+today.getMilliseconds();
+today.getSeconds();
+today.getTime();
+today.getTimezoneOffset();
 
+console.log(today)
 dob.setFullYear(1990);
 dob.setMonth(10);
 dob.setDate(1)
