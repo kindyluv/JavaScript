@@ -1,6 +1,6 @@
 function greet(firstName, lastName) {
-    if (typeof firstName ==='undefined'){firstName = 'John';}
-    if (typeof lastName ==='undefined'){lastName = ' Doe';}
+    if (typeof firstName ==='undefined'){firstName = 'string';}
+    if (typeof lastName ==='undefined'){lastName = ' string';}
     return 'hello' + ' '+firstName + ' ' + lastName;
 }
 console.log(greet('Lois', 'Ama'));
