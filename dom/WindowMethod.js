@@ -48,9 +48,19 @@ const listItems = document.querySelector('ul').getElementsByClassName('frame_con
 console.log(listItems)
 
 //Get Element by TagName
- const list = document.getElementsByTagName('input');
+ let list = document.getElementsByTagName('input');
 console.log(list)
 console.log(list[0])
 list[0].style.color = 'red';
 list[3].textContent = 'hello';
 
+//To use a reverse in html tags we convert HTML Collections into array
+
+list = Array.from(list);
+list.reverse();
+list.forEach(function(input_container){
+    console.log(input_container.className);
+    input_container.textContent = `${input_container}: Hello`;
+})
+
+console.log(list)
