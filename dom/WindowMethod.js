@@ -36,3 +36,14 @@ document.querySelector('li:nth-child(4)').textContent = 'Hello world';
 //changing things in last odd and even places
 document.querySelector('li:nth-child(odd)').style.background = '#000000';
 document.querySelector('li:nth-child(even)').style.background = 'gray';
+
+let items = document.getElementsByClassName("register_btn")
+console.log(items);
+console.log(items.length);
+console.log(items[0])
+items[0].style.color = 'red';
+items[3].textContent = 'hello';
+
+const listItems = document.querySelector('ul').getElementsByClassName('frame_container');
+console.log(listItems)
+
