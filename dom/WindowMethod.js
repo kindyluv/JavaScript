@@ -47,3 +47,10 @@ items[3].textContent = 'hello';
 const listItems = document.querySelector('ul').getElementsByClassName('frame_container');
 console.log(listItems)
 
+//Get Element by TagName
+ const list = document.getElementsByTagName('input');
+console.log(list)
+console.log(list[0])
+list[0].style.color = 'red';
+list[3].textContent = 'hello';
+
